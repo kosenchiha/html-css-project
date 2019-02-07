@@ -62,3 +62,29 @@ nav a {
 nav a:hover {
     background: #396037;
 }
+#lomond-image img {
+    width: 100%;
+}
+#lomond div {
+    background: #73c46f;
+    float: left;
+    width: 46%;
+    margin: 1%;
+    padding: 1%;
+    min-height: 555px;
+}
+#lomond:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+h4, h2 {
+    text-align: center;
+}
+table {
+    margin: 0 auto;
+    width: 70%;
+}
+td {
+    border-bottom: 1px solid #ddd;
+  }
