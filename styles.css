@@ -4,7 +4,9 @@ header {
 /**{
   border: 1px solid red;
 }*/
-
+body {
+  background: rgb(239, 237, 186);   
+}
 #banner {
     height: 82px;
     width: 100%;
@@ -62,6 +64,10 @@ nav a {
 nav a:hover {
     background: #396037;
 }
+#lomond-image h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
 #lomond-image img {
     width: 100%;
 }
@@ -73,10 +79,22 @@ nav a:hover {
     padding: 1%;
     border-radius: 25px;
     
-    min-height: 555px;
+    min-height: 600px;
 }
 h4, h2 {
     text-align: center;
+}
+p {
+    text-align: justify;
+}
+.information :first-child {
+    font-size: 1.2em;
+    font-style: italic;
+}
+.description{
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0; 
 }
 table {
     margin: 0 auto;
@@ -91,8 +109,8 @@ td {
 }
  .container div {
      background: #73c46f;
-     width: 29%;
-     margin: 1%;
+     width: 32%;
+     margin: 0.5%;
      border-radius: 25px;
 }
 .container h4 {
@@ -110,4 +128,36 @@ td {
     display: block;
     clear: both;
 }
+.mountin {
+    background: #73c46f;
+    border-radius: 25px;
+}
+.mountin h2 {
+    font-size: 2.3em;
+}
+.mountin p{
+    padding:  10px;
+}
+.foto-table img {
+    width: 100%;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;  
+}
+.foto-table {
+    width: 46%;
+    margin:auto 1%;
+    padding: 1%;   
+}
 
+footer div {
+    background: #2a6627;
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+}
+footer p{
+    text-align: center;
+    padding-top: 12px;
+}
