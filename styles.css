@@ -71,12 +71,9 @@ nav a:hover {
     width: 46%;
     margin: 1%;
     padding: 1%;
+    border-radius: 25px;
+    
     min-height: 555px;
-}
-#lomond:after {
-    content: "";
-    display: block;
-    clear: both;
 }
 h4, h2 {
     text-align: center;
@@ -88,3 +85,29 @@ table {
 td {
     border-bottom: 1px solid #ddd;
   }
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+ .container div {
+     background: #73c46f;
+     width: 29%;
+     margin: 1%;
+     border-radius: 25px;
+}
+.container h4 {
+    text-align: left;
+    padding: 0 8%;
+    margin-bottom: 0;
+    font-size: 1.3em;
+}
+.container p {
+    padding: 0 3%;
+    text-align: justify
+}
+#lomond:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
