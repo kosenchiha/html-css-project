@@ -1,3 +1,63 @@
+body {
+  background: rgb(239, 237, 186);
+}
+#banner {
+  height: 82px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  background: #2a6627;
+}
+#logo {
+  height: 76px;
+  padding: 3px 0 3px 3px;
+  float: left;
+}
+
+#banner-title {
+  color: white;
+  font-family: Purisa, Chilanka;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  text-emphasis: bold;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0;
+}
+#banner-title p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#menu {
+  width: 100%;
+  margin: 0 auto;
+  background: #73c46f;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  flex: 1 1 0;
+}
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  display: block;
+  padding: 0 10px;
+}
+nav a:hover {
+  background: #396037;
+}
+
 /*style for main*/
 aside {
   display: flex;
@@ -23,13 +83,9 @@ main p {
 main h2 {
   text-align: center;
 }
-article div:first-child {
-  margin-right: 15px;
-}
+
 img {
   width: 250px;
-  /* float: left; */
-  margin-right: 15px;
   margin-bottom: 10px;
 }
 
@@ -47,7 +103,19 @@ article img {
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 665px){
+/*style for footer*/
+footer div {
+  background: #2a6627;
+  width: 100%;
+  margin: 0 auto;
+  height: 40px;
+}
+footer p {
+  text-align: center;
+  padding-top: 12px;
+}
+
+@media (max-width: 665px) {
   body {
     background: red;
   }
@@ -66,12 +134,11 @@ article img {
   }
 }
 @media (max-width: 805px) {
-  
   aside {
     flex-wrap: wrap;
   }
   aside img {
-   width: 200px;
+    width: 200px;
   }
 }
 @media (min-width: 925px) {
@@ -87,7 +154,7 @@ article img {
     flex-direction: row-reverse;
   }
   main p {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5em;
   }
   aside img {
@@ -96,17 +163,12 @@ article img {
   article {
     width: 300px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    padding: 15px 2%;
   }
-  /* article > * {
-    flex: 1 1 25%; */
-}
-.articles {
-  flex-direction: row;
-   flex-wrap: wrap;  
-  }
-  /* article {
-    flex: 1 1 10%;
-  } */
-}
 
+  .articles {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
