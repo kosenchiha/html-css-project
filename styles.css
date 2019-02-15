@@ -1,21 +1,21 @@
-/*header:after {
-  content: "";
-  display: block;
-  clear: both;
-}*/
 article {
   background: #73c46f;
   width: 80%;
   margin: 25px auto;
   padding: 25px 3%;
   border-radius: 15px;
+  display: flex;
 }
 main p {
   text-align: justify;
-  line-height: 1.5em;
+  font-size: 18px;
+  line-height: 1.7em;
 }
 main h2 {
   text-align: center;
+}
+article div:first-child {
+  margin-right: 15px;
 }
 img {
   width: 250px;
@@ -29,20 +29,14 @@ main .first-article img:first-child {
   width: 80px;
   margin-bottom: 0;
 }
-.first-article {
-  display: flex;
-  /* align-items: center; */
-
-  /* flex-direction: row; */
-  /* flex-wrap: wrap; */
-}
-.first-article div {
-  margin-right: 10px;
-  margin-left: 10px;
-}
 .info {
   float: left;
 }
 /* main {
   display: flex;
+  flex-wrap: wrap;
+}
+article {
+  flex: 1 1 25%;
+  margin: 3px;
 } */
