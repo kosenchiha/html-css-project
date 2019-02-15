@@ -1,0 +1,100 @@
+header {
+  /*background: white;*/
+}
+/**{
+  border: 1px solid red;
+}*/
+#intro-img {
+  border-radius: 50%;
+  width: 10%;
+}
+#lomond-image h2 {
+  font-size: 2.5em;
+  margin: 0;
+}
+#lomond-image img {
+  width: 100%;
+}
+#lomond div {
+  background: #73c46f;
+  float: left;
+  width: 46%;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 25px;
+
+  min-height: 600px;
+}
+h4,
+h2 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+}
+.information :first-child {
+  font-size: 1.2em;
+  font-style: italic;
+}
+.description {
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0;
+}
+table {
+  margin: 0 auto;
+  width: 70%;
+}
+td {
+  border-bottom: 1px solid #ddd;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container div {
+  background: #73c46f;
+  width: 32%;
+  margin: 0.5%;
+  border-radius: 25px;
+}
+.container h4 {
+  text-align: left;
+  padding: 0 8% 10px;
+  margin-bottom: 0;
+  font-size: 1.3em;
+  float: left;
+}
+.container p {
+  padding: 0 5%;
+  text-align: justify;
+  line-height: 1.5em;
+}
+#lomond:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.mountain {
+  background: #73c46f;
+  border-radius: 25px;
+}
+.mountain h2 {
+  font-size: 2.3em;
+}
+.mountain p {
+  padding: 10px;
+}
+.foto-table img {
+  width: 100%;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+.foto-table {
+  width: 46%;
+  margin: auto 1%;
+  padding: 1%;
+}

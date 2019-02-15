@@ -1,0 +1,71 @@
+body {
+  background: rgb(239, 237, 186);
+}
+#banner {
+  height: 82px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  background: #2a6627;
+}
+#logo {
+  height: 76px;
+  padding: 3px 0 3px 3px;
+  float: left;
+}
+
+#banner-title {
+  color: white;
+  font-family: Purisa, Chilanka;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+  text-emphasis: bold;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0;
+}
+#banner-title p {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#menu {
+  width: 100%;
+  margin: 0 auto;
+  background: #73c46f;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  /*justify-content: flex-end;*/
+}
+
+nav li {
+  flex: 1 1 0;
+}
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  display: block;
+  padding: 0 10px;
+}
+nav a:hover {
+  background: #396037;
+}
+
+footer div {
+  background: #2a6627;
+  width: 100%;
+  margin: 0 auto;
+  height: 40px;
+}
+footer p {
+  text-align: center;
+  padding-top: 12px;
+}
